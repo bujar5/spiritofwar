@@ -7,13 +7,12 @@ export default function Error({ error, reset }) {
         // Log the error to an error reporting service
         console.error(error)
     }, [error])
-
     return (
         <div>
             <div className="bg-black px-2 text-center">
                 <div className="h-screen flex flex-col justify-center items-center">
-                    <h1 className="text-8xl font-extrabold text-red-500">500</h1>
-                    <p className="text-4xl font-medium text-gray-100">Oops, Looks like something is broken</p>
+                    {/* <h1 className="text-8xl font-extrabold text-red-500">500</h1> */}
+                    <p className="text-4xl font-medium text-gray-100">Make sure to have set up your account!</p>
                     <p className="text-xl text-gray-100 mt-4">We apologize for the inconvenience, please check your internet, or reload page to try again.</p>
                 </div>
 

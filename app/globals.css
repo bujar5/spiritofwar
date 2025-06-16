@@ -58,3 +58,7 @@ body {
     transform: translateX(-100%);
   }
 }
+
+nextjs-portal {
+  display: none;
+}
